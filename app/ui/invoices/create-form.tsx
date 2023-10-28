@@ -3,7 +3,6 @@
 import { CustomerField } from '@/app/lib/definitions'
 import Link from 'next/link'
 import { CheckIcon, ClockIcon, CurrencyDollarIcon, UserCircleIcon } from '@heroicons/react/24/outline'
-import { Button } from '../button'
 import { createInvoice } from '@/app/lib/actions'
 import { SubmitButton } from './submit-button'
 

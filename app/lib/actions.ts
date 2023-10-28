@@ -4,9 +4,6 @@ import { z } from 'zod'
 import { sql } from '@vercel/postgres'
 import { revalidatePath } from 'next/cache'
 import { redirect } from 'next/navigation'
-import { toast } from 'sonner'
-
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
 // InvoiceSchema
 const InvoiceSchema = z.object({
